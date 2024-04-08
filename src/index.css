@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar{
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1{
+  color: #57852c !important;
+}
+.navbar h1{
+  color: #000000;
+}
+
+.navbar .links {
+  margin-left:auto;
+}
+.navbar .links a:nth-child(2){
+  color:white;
+  background-color: #57852c;
+  border-radius: 8px;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #57852c;
+}
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.bloglist h2{
+  color: #57852c; 
+}
+
+.blog-preview{
+  padding: 15px 15px;
+}
+.blog-preview:hover{
+  box-shadow: 5px 5px 4px rgb(229, 226, 226);
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color: #57852c;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+
+.blog-details button{
+  background: #57852c;
+  color:#fff;
+  border:0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #57852c;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #57852c;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.not-found h2{
+  font-size: 40px;
+  color: #57852c;
+  margin-bottom: 10px;
+}
+.not-found p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.not-found a{
+  background: #57852c;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-decoration: none;
+}
